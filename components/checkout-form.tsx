@@ -72,7 +72,7 @@ export default function CheckoutForm() {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="zipCode">CEP</Label>
+                <Label htmlFor="zipCode">Código postal</Label>
                 <Input id="zipCode" name="zipCode" value={formData.zipCode} onChange={handleInputChange} required />
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function CheckoutForm() {
           <div className="space-y-4">
             <div className="flex justify-between items-center py-2 border-b">
               <span className="text-[#333333]">Ração Premium Golden</span>
-              <span className="font-semibold">R$ 89,90</span>
+              <span className="font-semibold">AOA 8.900,90</span>
             </div>
 
             <div className="flex justify-between items-center py-2 border-b">
@@ -102,12 +102,12 @@ export default function CheckoutForm() {
 
             <div className="flex justify-between items-center py-2 border-b">
               <span className="text-[#333333]">Desconto (PETMIMOS20)</span>
-              <span className="font-semibold text-green-600">-R$ 17,98</span>
+              <span className="font-semibold text-green-600">-AOA 1.700,98</span>
             </div>
 
             <div className="flex justify-between items-center py-4 text-xl font-bold text-[#333333] border-t-2">
               <span>Total</span>
-              <span className="text-[#ff6f61]">R$ 71,92</span>
+              <span className="text-[#ff6f61]">AOA 7.100,92</span>
             </div>
 
             <div className="bg-[#B2DFFC] p-4 rounded-lg">
